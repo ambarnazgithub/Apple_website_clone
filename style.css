@@ -1,0 +1,638 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;;
+}
+body {
+    margin: 0; 
+    padding-top: 50px;
+}
+
+.nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 50px;
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgba(250, 250, 252, .8);
+    padding: 0 9px;
+    position: fixed;
+    width: 100%;
+    
+ 
+}
+.nav-content  a{
+     font-size: 0.9rem;  
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+    text-decoration: none; 
+    white-space: nowrap; 
+    flex-shrink: 0; 
+}
+
+.nav-content i{
+    font-size: 1.3rem;
+      margin-right: 5px;
+}
+.nav-content a span {
+    display: inline;
+}
+.nav-content{
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 210px;
+    white-space: nowrap; 
+    overflow-x: auto;
+    
+}
+
+.line-1{
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #0071e3;
+   color: white;
+   animation:  backgroundColorChange 2s forwards;
+}
+
+@keyframes backgroundColorChange {
+  
+    
+    100% {
+        background-color:white;
+        color:black;
+    }
+}
+   
+
+.line-1 a{
+    text-decoration: none;
+    color: blue;
+}
+
+.line-1 a:hover{
+    text-decoration: underline;
+}
+
+
+
+.first-section{
+    padding-left: 3px;
+    background-image:url(/pic-1.PNG);
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+
+}
+
+.shop1-btn{
+    width: 100%;
+     background-color:rgb(244, 246, 246) ; 
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80px ;
+ 
+}
+
+.first-btn{
+    border-radius: 25px;
+    width: 90px;
+    height: 45px;
+    font-size: 1.2rem;
+    color: #0071e3;
+    border:1px solid #0071e3;
+}
+
+.first-btn:hover{
+    color: white;
+    background-color: #0071e3;
+}
+.separator {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#src{
+    margin: 0;
+    padding: 0; 
+}
+.pic-2 {
+    position: relative; 
+    width: 300px; 
+    height: 100px;
+}
+
+/* Hide the image for small screens by default */
+.small-screen-image {
+    display: none;
+}
+
+
+
+
+.sec-section-content{
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    height: 580px;
+    margin-top: 13px;
+    background-color: rgb(244, 246, 246);
+    
+}
+
+.mac-line{
+    font-weight: 550;
+    font-size: 3.7rem ;
+    color: #161617;
+    
+}
+
+.lean{
+    font-size: 2rem;
+    padding-top: 10px;
+}
+.sec-section-btn{
+    display: flex;
+    margin-top: 20px;
+   
+}
+
+.learn-more{
+    border-radius: 25px;
+    width: 150px;
+    height: 45px;
+    font-size: 1.2rem;
+    color: white;
+    background-color:  #0071e3;
+    border: none;
+    margin-right: 20px;
+    
+}
+.buy-btn{
+    border-radius: 25px;
+    width: 80px;
+    height: 45px;
+    font-size: 1.2rem;
+    color: #0071e3;
+    border:1px solid #0071e3;
+}
+.buy-btn:hover{
+    color: white;
+    background-color: #0071e3;
+}
+
+.pic-2{
+    background-image: none;
+        background-color: rgb(244, 246, 246);
+   
+}
+.macbook-img {
+    width: 100%; 
+    height: auto;
+    margin-top: 20px; 
+    max-width: 600px; 
+}
+
+.third-section-content{
+background-color: black;
+ height: 580px;
+ 
+}
+.iphonefamily{
+    background-image: url(./iphonefamily.jpg);
+    width: 100%;
+    height: 1000px; ; 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.main-forthsec{
+    display: flex;
+    height: 580px;
+    width: 100%;
+    background-color:white;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+    flex-direction: row;
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+    
+}
+.forth-section{
+    background-image: url(./ipadpro.jpg);
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    
+}
+.forth-section2{
+    background-image: url(./promo-ai.jpg);
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 23px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 75px;
+}
+.hover-btn:hover{
+    background-color:#0071e3 ;
+    color: white;
+    
+}
+.shop-btn{
+    width:150px  ;
+    background-color: black;
+    border-radius: 25px;
+    color: #0071e3;
+    font-size: 1.2rem;
+    border:1px solid #0071e3;
+    height: 45px ;
+}
+.buy{
+    background-color: black;
+    width:80px  ;
+    border-radius: 25px;
+    color: #0071e3;
+    font-size: 1.2rem;
+    border:1px solid #0071e3;
+    height: 45px ;
+}
+   
+.main-fifthsec{
+    display: flex;
+    height: 580px;
+    width: 100%;
+    background-color:white;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+    flex-direction: row;
+    gap: 12px;
+    display: flex;
+    justify-content: center;}
+
+.fifth-section{
+    background-image: url(./apple-vision.jpg);
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 360px;
+    
+}
+.mac-line5a{
+    font-weight: 550;
+    font-size:3rem ;
+    color:black;
+    
+}
+.lean5a{
+    font-size: 1.6rem;
+    padding-top: 10px;
+    color: black;
+}
+
+.buy5a{
+    border-radius: 25px;
+    width: 80px;
+    height: 45px;
+    font-size: 1.2rem;
+    color: #0071e3;
+    border:1px solid #0071e3;
+    background-color: transparent;
+}
+
+
+
+.fifth-section2{
+    background-image: url(./apple-watch.jpg);
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 23px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 75px;
+    color: white;
+}
+
+
+.mac-line5b{
+    font-weight: 550;
+    font-size:2.5rem ;
+    color:white;
+    
+}
+.buy5b{
+    border-radius: 25px;
+    width: 80px;
+    height: 45px;
+    font-size: 1.2rem;
+    color: #0071e3;
+    border:1px solid #0071e3;
+    background-color: transparent;
+}
+
+.main-sixthsec{
+    display: flex;
+    height: 580px;
+    width: 100%;
+    background-color:white;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+    flex-direction: row;
+    gap: 12px;
+    display: flex;
+    justify-content: center;}
+
+
+
+
+.sixth-section{
+    background-image: url(./apple\ card.jpg);
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+   
+    
+}
+.sixth-section2{
+    background-image: url(./iphone-tradein.jpg);
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 23px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    color:black;
+}
+.buy6a{
+    border-radius: 25px;
+    width: 130px;
+    height: 45px;
+    font-size: 1.2rem;
+    color: #0071e3;
+    border:1px solid #0071e3;
+    background-color: transparent;
+}
+
+.mac-line6b{
+    font-weight: 550;
+    font-size:2.7rem ;
+    color:black;
+}
+
+.lean6b{
+    font-size: 1.6rem;
+    padding-top: 10px;
+    color: black;
+    
+}
+.text{
+    height: max-content;
+    margin-top: 10px;
+    padding-top: 30px;
+   color: #303031;
+    background-color:rgb(244, 246, 246);
+}
+.text p{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 10px;
+    font-size: 0.9rem;
+    
+}
+.text hr{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.menu-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-list ul{
+    list-style: none;
+}
+.store{
+    margin-left: 5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menu-items{
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.099);
+}
+.footer p{
+    text-align: center;
+}
+.footer{
+    padding: 20px;
+  
+}
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 1145px) {
+    .nav-content {
+        padding: 0 20px; 
+    }
+
+    .nav-content a span {
+        display: none;
+    }
+
+    .nav-content i {
+        font-size: 1.5rem; 
+    }
+   
+    .line-1 {
+        display: flex; 
+        flex-direction: column; 
+        text-align: center; 
+        justify-content: center; 
+        align-items: center;
+        white-space: normal; 
+        word-wrap: break-word; 
+        width: 100%; 
+        padding: 15px; 
+        height: 100px;
+    }
+
+}
+
+/* Media query for large screens */
+@media (min-width: 768px) {
+    .small-screen-image {
+        display: none; /* Hide the small screen image */
+    }
+
+    .large-screen-image {
+        display: block; 
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+    }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .large-screen-image {
+        display: none; 
+    }
+
+    .small-screen-image {
+        display: block; 
+         
+       
+        width: 100%;
+        height: 50%;
+        
+    }
+    .shop-btn, .buy, .learn-more, .buy-btn, .buy5a, .buy5b, .buy6a {
+        font-size: 1rem; /* Adjust button font size */
+        width: auto; /* Allow buttons to resize based on text */
+        padding: 10px 20px; /* Add padding for better touch targets */
+    }
+     .mac-line, .mac-line5a, .mac-line6b {
+        font-size:2rem; /* Reduce font size for headings */
+    }
+
+    .lean, .lean5a, .lean6b {
+        font-size: 1.2rem; /* Adjust subheading font size */
+    }
+   
+
+    .main-forthsec,.main-fifthsec,.main-sixthsec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 50%;
+    }
+  
+    footer{
+        max-height: max-content;
+    }
+    .text{
+        height: 200%;
+       
+    }
+    .text p{
+        padding-left:10px ;
+        padding-right: 10px;
+         font-size: 0.7rem;
+    }
+    .sec-section-content{
+        font-size: small;
+    }
+    .small-font{
+        font-size: 1rem ;  
+    }
+     .menu-list li{
+        font-size: 0.7rem;
+    }
+
+
+    
+}
+/* Media Query for iPad Landscape Mode (width: 1024px) */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .main-forthsec, .main-fifthsec, .main-sixthsec {
+        flex-direction: row; /* Keep sections side by side */
+        justify-content: center; /* Center content */
+        height: auto;
+    }
+
+    .forth-section, .forth-section2, .fifth-section, .fifth-section2, .sixth-section, .sixth-section2 {
+        width: 48%; /* Adjust width for side-by-side layout */
+        height: auto; 
+        margin: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-size: cover; 
+        padding: 20px;
+    }
+}
+
+/* Adjusting Font Sizes and Other Elements */
+@media (max-width: 1024px) {
+    .mac-line, .mac-line5a, .mac-line6b {
+        font-size:2rem; /* Reduce font size for headings */
+    }
+
+    .lean, .lean5a, .lean6b {
+        font-size: 1.2rem; /* Adjust subheading font size */
+    }
+
+    .shop-btn, .buy, .learn-more, .buy-btn, .buy5a, .buy5b, .buy6a {
+        font-size: 1rem; /* Adjust button font size */
+        width: auto; /* Allow buttons to resize based on text */
+        padding: 10px 20px; /* Add padding for better touch targets */
+    }
+
+    .text p {
+        padding-left: 20px; 
+        padding-right: 20px;
+         font-size: 0.7rem;
+    
+    }
+    
+       
+    .footer{
+        height: max-content;
+    }
+    .menu-list li{
+        font-size: 0.7rem;
+    }
+}
+
+
+
+
